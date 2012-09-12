@@ -16,3 +16,5 @@ taralli_%: map_%
 
 clean:
 	-rm -f $(progs) $(taras) main.o
+
+.PHONY: all clean
