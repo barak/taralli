@@ -1,0 +1,22 @@
+This is a list of things that would be nice to add.
+
+Eye-attracting signal when mouse is warped.  Perhaps an expanding red
+circle.
+
+Hysteresis, so you have to push against a border for a bit before you
+get through.
+
+More general mechanisms.
+
+Communication with RANDR to rejigger setup automatically.
+
+Protected edge regions, for specific environments.  Eg, in GNOME 3 the
+left and right bits of the top edge, and the right bit of the bottom
+edge, should be protected against wrapping.
+
+Currently this program waits for the mouse to be at a particular
+position and then warps it.  Would be better if it could see the mouse
+being pushed through an edge and stopped by the usual X mechanisms,
+and take over from there.  This would involve listening to both
+position and mouse device movement events I suppose, instead of just
+position change events.
