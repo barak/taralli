@@ -1,0 +1,13 @@
+*.o
+/map_array
+/map_beef
+/map_boudoir
+/map_lr
+/map_rectangular
+/map_tb
+/taralli_array
+/taralli_beef
+/taralli_boudoir
+/taralli_lr
+/taralli_rectangular
+/taralli_tb
